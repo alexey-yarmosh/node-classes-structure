@@ -357,6 +357,34 @@
     "outline_color": "#9303d2"
   },
   {
+    "id": "hidden.RangeError",
+    "name": "hidden.RangeError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.ReferenceError",
+    "name": "hidden.ReferenceError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.SystemError",
+    "name": "hidden.SystemError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.TypeError",
+    "name": "hidden.TypeError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
     "id": "global.Uint8Array",
     "name": "global.Uint8Array",
     "parent": "hidden.TypedArray",

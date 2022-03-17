@@ -74,7 +74,10 @@
     "name": "events.EventEmitter",
     "parent": "global.Object",
     "color": "#a3f39c",
-    "outline_color": "#17cb06"
+    "outline_color": "#17cb06",
+    "attributes": {
+      "description": "All objects that emit events are instances of the EventEmitter class"
+    }
   },
   {
     "id": "console.Console",
@@ -433,7 +436,10 @@
     "name": "events.EventEmitterAsyncResource",
     "parent": "events.EventEmitter",
     "color": "#a3f39c",
-    "outline_color": "#17cb06"
+    "outline_color": "#17cb06",
+    "attributes": {
+      "description": "Integrates EventEmitter class with async_hooks.AsyncResource class"
+    }
   },
   {
     "id": "http.Agent",

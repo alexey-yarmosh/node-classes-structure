@@ -42,60 +42,8 @@ const streamWeb = require('stream/web');
 const worker_threads = require('worker_threads');
 const zlib = require('zlib');
 
-const _ = require('lodash');
-const { writeFileSync } = require('fs');
-const { String2HexCodeColor } = require('string-to-hex-code-color');
-
-class ClassRegistry {
-  constructor () {
-    this.string2color = new String2HexCodeColor();
-    this.classesMap = new Map();
-    this.classesMap.set(Object, Object.name);
-  }
-
-  register (cl, moduleName) {
-    this.classesMap.set(cl, `${moduleName}.${cl.name}`);
-  }
-
-  getName (cl) {
-    const name = this.classesMap.get(cl);
-    if (name === 'Object') {
-      return 'global.Object';
-    }
-    if (name) {
-      return name;
-    }
-    try {
-      eval(cl.name);
-    } catch (error) {
-      return `hidden.${cl.name}`;
-    }
-    return cl.name ? `global.${cl.name}` : '[Function (anonymous)]';
-  }
-
-  getColor (cl) {
-    const name = this.getName(cl);
-    const moduleName = name.split('.')[0];
-    return this.string2color.stringToColor(moduleName, 0.6);
-  }
-
-  getOutlineColor (cl) {
-    const name = this.getName(cl);
-    const moduleName = name.split('.')[0];
-    return this.string2color.stringToColor(moduleName, -0.1);
-  }
-}
-const classRegistry = new ClassRegistry();
-
-function getInheritanceChain(startClass) {
-  const chain = [startClass];
-  let currentParent = startClass.prototype.__proto__.constructor;
-  while (currentParent) {
-    chain.push(currentParent);
-    currentParent = currentParent.prototype.__proto__?.constructor;
-  }
-  return chain;
-}
+const classRegistry = require('./class-registry');
+const generateChains = require('./chains-generator');
 
 function getClassesFromModule(module) {
   const classes = [];
@@ -115,52 +63,11 @@ function getIsClassName(str) {
 
 function handleModule (moduleName, module) {
   const classes = getClassesFromModule(module);
-  const chains = [];
-  for (const cl of classes) {
-    classRegistry.register(cl, moduleName);
-    chains.push(getInheritanceChain(cl));
-  }
-  return chains;
+  classRegistry.register(classes, moduleName);
+  return generateChains(classes);
 }
 
-function getChartData(chains) {
-  const chartData = [];
-  for (const chain of chains) {
-    for (let i = 0; i < chain.length; i++) {
-      const currentClass = chain[i];
-      const nextClass = chain[i+1];
-      const chartElement = {
-        id: classRegistry.getName(currentClass),
-        name: classRegistry.getName(currentClass),
-        parent: nextClass ? classRegistry.getName(nextClass) : null,
-        color: classRegistry.getColor(currentClass),
-        outline_color: classRegistry.getOutlineColor(currentClass)
-      }
-      chartData.push(chartElement);
-    }
-  }
-  const uniqChartData = _.uniqBy(chartData, ({ id }) => id);
-  const sortedChartData = sortChartData(uniqChartData);
-  return sortedChartData;
-}
-
-function sortChartData(chartData) {
-  const sortedChartData = [];
-  const parentNames = [null];
-  for (const parentName of parentNames) {
-    const childs = chartData.filter(chartElem => chartElem.parent === parentName);
-    sortedChartData.push(...childs);
-    const newParentNames = childs.map(chartElem => chartElem.id);
-    parentNames.push(...newParentNames);
-  }
-  return sortedChartData;
-}
-
-function saveChartData(chartData) {
-  writeFileSync('./data/data.json', JSON.stringify(chartData, null, 2));
-}
-
-function main() {
+function getModulesChains () {
   const chains = [
     ...handleModule('assert', assert),
     ...handleModule('async_hooks', async_hooks),
@@ -204,9 +111,10 @@ function main() {
     ...handleModule('vm', vm),
     ...handleModule('stream/web', streamWeb),
     ...handleModule('worker_threads', worker_threads),
-    ...handleModule('zlib', zlib),
+    ...handleModule('zlib', zlib)
   ];
-  const chartData = getChartData(chains);
-  saveChartData(chartData);
+  return chains;
 }
-main();
+
+
+module.exports = getModulesChains;
