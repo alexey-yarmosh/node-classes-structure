@@ -1,4 +1,4 @@
-fetch("../data/data.json")
+fetch("../data/data-v2-with-comments.json")
 .then(response => {
    return response.json();
 })

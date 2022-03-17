@@ -58,7 +58,7 @@ function getClassesFromModule(module) {
 }
 
 function getIsClassName(str) {
-  return /[A-Z][a-z]/.test(str.slice(0, 2));
+  return /^[A-Z]+[a-z]/.test(str);
 }
 
 function handleModule (moduleName, module) {
