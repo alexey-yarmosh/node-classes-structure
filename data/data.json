@@ -1,0 +1,933 @@
+[
+  {
+    "id": "global.Object",
+    "name": "global.Object",
+    "parent": null,
+    "color": "#da9af6",
+    "outline_color": "#9303d2"
+  },
+  {
+    "id": "global.Error",
+    "name": "global.Error",
+    "parent": "global.Object",
+    "color": "#da9af6",
+    "outline_color": "#9303d2"
+  },
+  {
+    "id": "assert.CallTracker",
+    "name": "assert.CallTracker",
+    "parent": "global.Object",
+    "color": "#b5c79f",
+    "outline_color": "#3f680e"
+  },
+  {
+    "id": "async_hooks.AsyncLocalStorage",
+    "name": "async_hooks.AsyncLocalStorage",
+    "parent": "global.Object",
+    "color": "#abb6ed",
+    "outline_color": "#2941bd"
+  },
+  {
+    "id": "async_hooks.AsyncResource",
+    "name": "async_hooks.AsyncResource",
+    "parent": "global.Object",
+    "color": "#abb6ed",
+    "outline_color": "#2941bd"
+  },
+  {
+    "id": "buffer.Blob",
+    "name": "buffer.Blob",
+    "parent": "global.Object",
+    "color": "#b3d4f1",
+    "outline_color": "#3a85c5"
+  },
+  {
+    "id": "hidden.TypedArray",
+    "name": "hidden.TypedArray",
+    "parent": "global.Object",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "events.EventEmitter",
+    "name": "events.EventEmitter",
+    "parent": "global.Object",
+    "color": "#a3f39c",
+    "outline_color": "#17cb06"
+  },
+  {
+    "id": "console.Console",
+    "name": "console.Console",
+    "parent": "global.Object",
+    "color": "#bcf5e2",
+    "outline_color": "#4ecea4"
+  },
+  {
+    "id": "crypto.Certificate",
+    "name": "crypto.Certificate",
+    "parent": "global.Object",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.DiffieHellman",
+    "name": "crypto.DiffieHellman",
+    "parent": "global.Object",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.DiffieHellmanGroup",
+    "name": "crypto.DiffieHellmanGroup",
+    "parent": "global.Object",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "hidden.BaseObject",
+    "name": "hidden.BaseObject",
+    "parent": "global.Object",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "diagnostics_channel.Channel",
+    "name": "diagnostics_channel.Channel",
+    "parent": "global.Object",
+    "color": "#c6b9ea",
+    "outline_color": "#6549b7"
+  },
+  {
+    "id": "dns.Resolver",
+    "name": "dns.Resolver",
+    "parent": "global.Object",
+    "color": "#b9b3bf",
+    "outline_color": "#483b55"
+  },
+  {
+    "id": "fs.Dir",
+    "name": "fs.Dir",
+    "parent": "global.Object",
+    "color": "#ebecca",
+    "outline_color": "#b8ba6e"
+  },
+  {
+    "id": "fs.Dirent",
+    "name": "fs.Dirent",
+    "parent": "global.Object",
+    "color": "#ebecca",
+    "outline_color": "#b8ba6e"
+  },
+  {
+    "id": "hidden.StatsBase",
+    "name": "hidden.StatsBase",
+    "parent": "global.Object",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "module.Module",
+    "name": "module.Module",
+    "parent": "global.Object",
+    "color": "#c4dbb7",
+    "outline_color": "#619544"
+  },
+  {
+    "id": "module.SourceMap",
+    "name": "module.SourceMap",
+    "parent": "global.Object",
+    "color": "#c4dbb7",
+    "outline_color": "#619544"
+  },
+  {
+    "id": "perf_hooks.PerformanceEntry",
+    "name": "perf_hooks.PerformanceEntry",
+    "parent": "global.Object",
+    "color": "#f0faab",
+    "outline_color": "#c4da28"
+  },
+  {
+    "id": "perf_hooks.PerformanceObserver",
+    "name": "perf_hooks.PerformanceObserver",
+    "parent": "global.Object",
+    "color": "#f0faab",
+    "outline_color": "#c4da28"
+  },
+  {
+    "id": "perf_hooks.PerformanceObserverEntryList",
+    "name": "perf_hooks.PerformanceObserverEntryList",
+    "parent": "global.Object",
+    "color": "#f0faab",
+    "outline_color": "#c4da28"
+  },
+  {
+    "id": "readline/promises.Readline",
+    "name": "readline/promises.Readline",
+    "parent": "global.Object",
+    "color": "#d8afd2",
+    "outline_color": "#8d3281"
+  },
+  {
+    "id": "string_decoder.StringDecoder",
+    "name": "string_decoder.StringDecoder",
+    "parent": "global.Object",
+    "color": "#a2a0cc",
+    "outline_color": "#141073"
+  },
+  {
+    "id": "tls.SecureContext",
+    "name": "tls.SecureContext",
+    "parent": "global.Object",
+    "color": "#cfb8ef",
+    "outline_color": "#7946c1"
+  },
+  {
+    "id": "url.Url",
+    "name": "url.Url",
+    "parent": "global.Object",
+    "color": "#c4faa2",
+    "outline_color": "#60db14"
+  },
+  {
+    "id": "url.URLSearchParams",
+    "name": "url.URLSearchParams",
+    "parent": "global.Object",
+    "color": "#c4faa2",
+    "outline_color": "#60db14"
+  },
+  {
+    "id": "util.TextDecoder",
+    "name": "util.TextDecoder",
+    "parent": "global.Object",
+    "color": "#9af9af",
+    "outline_color": "#02d831"
+  },
+  {
+    "id": "util.TextEncoder",
+    "name": "util.TextEncoder",
+    "parent": "global.Object",
+    "color": "#9af9af",
+    "outline_color": "#02d831"
+  },
+  {
+    "id": "hidden.ContextifyScript",
+    "name": "hidden.ContextifyScript",
+    "parent": "global.Object",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "stream/web.ReadableStream",
+    "name": "stream/web.ReadableStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ReadableStreamDefaultReader",
+    "name": "stream/web.ReadableStreamDefaultReader",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ReadableStreamBYOBReader",
+    "name": "stream/web.ReadableStreamBYOBReader",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ReadableStreamBYOBRequest",
+    "name": "stream/web.ReadableStreamBYOBRequest",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ReadableByteStreamController",
+    "name": "stream/web.ReadableByteStreamController",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ReadableStreamDefaultController",
+    "name": "stream/web.ReadableStreamDefaultController",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.TransformStream",
+    "name": "stream/web.TransformStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.TransformStreamDefaultController",
+    "name": "stream/web.TransformStreamDefaultController",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.WritableStream",
+    "name": "stream/web.WritableStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.WritableStreamDefaultWriter",
+    "name": "stream/web.WritableStreamDefaultWriter",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.WritableStreamDefaultController",
+    "name": "stream/web.WritableStreamDefaultController",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.ByteLengthQueuingStrategy",
+    "name": "stream/web.ByteLengthQueuingStrategy",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.CountQueuingStrategy",
+    "name": "stream/web.CountQueuingStrategy",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.TextEncoderStream",
+    "name": "stream/web.TextEncoderStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.TextDecoderStream",
+    "name": "stream/web.TextDecoderStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.CompressionStream",
+    "name": "stream/web.CompressionStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "stream/web.DecompressionStream",
+    "name": "stream/web.DecompressionStream",
+    "parent": "global.Object",
+    "color": "#b5e3e3",
+    "outline_color": "#3ea6a6"
+  },
+  {
+    "id": "global.EventTarget",
+    "name": "global.EventTarget",
+    "parent": "global.Object",
+    "color": "#da9af6",
+    "outline_color": "#9303d2"
+  },
+  {
+    "id": "worker_threads.MessageChannel",
+    "name": "worker_threads.MessageChannel",
+    "parent": "global.Object",
+    "color": "#f6b9f2",
+    "outline_color": "#d147c8"
+  },
+  {
+    "id": "assert.AssertionError",
+    "name": "assert.AssertionError",
+    "parent": "global.Error",
+    "color": "#b5c79f",
+    "outline_color": "#3f680e"
+  },
+  {
+    "id": "global.SyntaxError",
+    "name": "global.SyntaxError",
+    "parent": "global.Error",
+    "color": "#da9af6",
+    "outline_color": "#9303d2"
+  },
+  {
+    "id": "hidden.RangeError",
+    "name": "hidden.RangeError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.ReferenceError",
+    "name": "hidden.ReferenceError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.SystemError",
+    "name": "hidden.SystemError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "hidden.TypeError",
+    "name": "hidden.TypeError",
+    "parent": "global.Error",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "global.Uint8Array",
+    "name": "global.Uint8Array",
+    "parent": "hidden.TypedArray",
+    "color": "#da9af6",
+    "outline_color": "#9303d2"
+  },
+  {
+    "id": "child_process.ChildProcess",
+    "name": "child_process.ChildProcess",
+    "parent": "events.EventEmitter",
+    "color": "#b7f2c9",
+    "outline_color": "#44c86b"
+  },
+  {
+    "id": "cluster.Worker",
+    "name": "cluster.Worker",
+    "parent": "events.EventEmitter",
+    "color": "#fda0fd",
+    "outline_color": "#e10fe2"
+  },
+  {
+    "id": "stream.Stream",
+    "name": "stream.Stream",
+    "parent": "events.EventEmitter",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "dgram.Socket",
+    "name": "dgram.Socket",
+    "parent": "events.EventEmitter",
+    "color": "#e4e3e0",
+    "outline_color": "#a8a69f"
+  },
+  {
+    "id": "domain.Domain",
+    "name": "domain.Domain",
+    "parent": "events.EventEmitter",
+    "color": "#e7eefa",
+    "outline_color": "#b0bfdb"
+  },
+  {
+    "id": "events.EventEmitterAsyncResource",
+    "name": "events.EventEmitterAsyncResource",
+    "parent": "events.EventEmitter",
+    "color": "#a3f39c",
+    "outline_color": "#17cb06"
+  },
+  {
+    "id": "http.Agent",
+    "name": "http.Agent",
+    "parent": "events.EventEmitter",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "net.Server",
+    "name": "net.Server",
+    "parent": "events.EventEmitter",
+    "color": "#f2c5f8",
+    "outline_color": "#c964d5"
+  },
+  {
+    "id": "inspector.Session",
+    "name": "inspector.Session",
+    "parent": "events.EventEmitter",
+    "color": "#fcb0a4",
+    "outline_color": "#de3419"
+  },
+  {
+    "id": "hidden.InterfaceConstructor",
+    "name": "hidden.InterfaceConstructor",
+    "parent": "events.EventEmitter",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "worker_threads.Worker",
+    "name": "worker_threads.Worker",
+    "parent": "events.EventEmitter",
+    "color": "#f6b9f2",
+    "outline_color": "#d147c8"
+  },
+  {
+    "id": "[Function (anonymous)]",
+    "name": "[Function (anonymous)]",
+    "parent": "hidden.BaseObject",
+    "color": "#9bf7a4",
+    "outline_color": "#05d418"
+  },
+  {
+    "id": "hidden.JSTransferable",
+    "name": "hidden.JSTransferable",
+    "parent": "hidden.BaseObject",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "v8.Serializer",
+    "name": "v8.Serializer",
+    "parent": "hidden.BaseObject",
+    "color": "#9d99d0",
+    "outline_color": "#08017b"
+  },
+  {
+    "id": "v8.Deserializer",
+    "name": "v8.Deserializer",
+    "parent": "hidden.BaseObject",
+    "color": "#9d99d0",
+    "outline_color": "#08017b"
+  },
+  {
+    "id": "fs.Stats",
+    "name": "fs.Stats",
+    "parent": "hidden.StatsBase",
+    "color": "#ebecca",
+    "outline_color": "#b8ba6e"
+  },
+  {
+    "id": "perf_hooks.PerformanceMark",
+    "name": "perf_hooks.PerformanceMark",
+    "parent": "perf_hooks.PerformanceEntry",
+    "color": "#f0faab",
+    "outline_color": "#c4da28"
+  },
+  {
+    "id": "perf_hooks.PerformanceMeasure",
+    "name": "perf_hooks.PerformanceMeasure",
+    "parent": "perf_hooks.PerformanceEntry",
+    "color": "#f0faab",
+    "outline_color": "#c4da28"
+  },
+  {
+    "id": "vm.Script",
+    "name": "vm.Script",
+    "parent": "hidden.ContextifyScript",
+    "color": "#bef2c7",
+    "outline_color": "#53c968"
+  },
+  {
+    "id": "hidden.NodeEventTarget",
+    "name": "hidden.NodeEventTarget",
+    "parent": "global.EventTarget",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "worker_threads.BroadcastChannel",
+    "name": "worker_threads.BroadcastChannel",
+    "parent": "global.EventTarget",
+    "color": "#f6b9f2",
+    "outline_color": "#d147c8"
+  },
+  {
+    "id": "repl.Recoverable",
+    "name": "repl.Recoverable",
+    "parent": "global.SyntaxError",
+    "color": "#c5bdae",
+    "outline_color": "#645230"
+  },
+  {
+    "id": "buffer.Buffer",
+    "name": "buffer.Buffer",
+    "parent": "global.Uint8Array",
+    "color": "#b3d4f1",
+    "outline_color": "#3a85c5"
+  },
+  {
+    "id": "buffer.SlowBuffer",
+    "name": "buffer.SlowBuffer",
+    "parent": "global.Uint8Array",
+    "color": "#b3d4f1",
+    "outline_color": "#3a85c5"
+  },
+  {
+    "id": "stream.Readable",
+    "name": "stream.Readable",
+    "parent": "stream.Stream",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "stream.Writable",
+    "name": "stream.Writable",
+    "parent": "stream.Stream",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "http.OutgoingMessage",
+    "name": "http.OutgoingMessage",
+    "parent": "stream.Stream",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "http2.Http2ServerResponse",
+    "name": "http2.Http2ServerResponse",
+    "parent": "stream.Stream",
+    "color": "#dd9cf9",
+    "outline_color": "#9907d8"
+  },
+  {
+    "id": "https.Agent",
+    "name": "https.Agent",
+    "parent": "http.Agent",
+    "color": "#f79cf9",
+    "outline_color": "#d407d8"
+  },
+  {
+    "id": "http.Server",
+    "name": "http.Server",
+    "parent": "net.Server",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "tls.Server",
+    "name": "tls.Server",
+    "parent": "net.Server",
+    "color": "#cfb8ef",
+    "outline_color": "#7946c1"
+  },
+  {
+    "id": "hidden.Interface",
+    "name": "hidden.Interface",
+    "parent": "hidden.InterfaceConstructor",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "crypto.KeyObject",
+    "name": "crypto.KeyObject",
+    "parent": "[Function (anonymous)]",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "net.BlockList",
+    "name": "net.BlockList",
+    "parent": "hidden.JSTransferable",
+    "color": "#f2c5f8",
+    "outline_color": "#c964d5"
+  },
+  {
+    "id": "net.SocketAddress",
+    "name": "net.SocketAddress",
+    "parent": "hidden.JSTransferable",
+    "color": "#f2c5f8",
+    "outline_color": "#c964d5"
+  },
+  {
+    "id": "v8.DefaultSerializer",
+    "name": "v8.DefaultSerializer",
+    "parent": "v8.Serializer",
+    "color": "#9d99d0",
+    "outline_color": "#08017b"
+  },
+  {
+    "id": "v8.DefaultDeserializer",
+    "name": "v8.DefaultDeserializer",
+    "parent": "v8.Deserializer",
+    "color": "#9d99d0",
+    "outline_color": "#08017b"
+  },
+  {
+    "id": "worker_threads.MessagePort",
+    "name": "worker_threads.MessagePort",
+    "parent": "hidden.NodeEventTarget",
+    "color": "#f6b9f2",
+    "outline_color": "#d147c8"
+  },
+  {
+    "id": "stream.Duplex",
+    "name": "stream.Duplex",
+    "parent": "stream.Readable",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "fs.ReadStream",
+    "name": "fs.ReadStream",
+    "parent": "stream.Readable",
+    "color": "#ebecca",
+    "outline_color": "#b8ba6e"
+  },
+  {
+    "id": "http.IncomingMessage",
+    "name": "http.IncomingMessage",
+    "parent": "stream.Readable",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "http2.Http2ServerRequest",
+    "name": "http2.Http2ServerRequest",
+    "parent": "stream.Readable",
+    "color": "#dd9cf9",
+    "outline_color": "#9907d8"
+  },
+  {
+    "id": "crypto.Sign",
+    "name": "crypto.Sign",
+    "parent": "stream.Writable",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Verify",
+    "name": "crypto.Verify",
+    "parent": "stream.Writable",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "fs.WriteStream",
+    "name": "fs.WriteStream",
+    "parent": "stream.Writable",
+    "color": "#ebecca",
+    "outline_color": "#b8ba6e"
+  },
+  {
+    "id": "http.ClientRequest",
+    "name": "http.ClientRequest",
+    "parent": "http.OutgoingMessage",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "http.ServerResponse",
+    "name": "http.ServerResponse",
+    "parent": "http.OutgoingMessage",
+    "color": "#cf9cad",
+    "outline_color": "#7a072c"
+  },
+  {
+    "id": "https.Server",
+    "name": "https.Server",
+    "parent": "tls.Server",
+    "color": "#f79cf9",
+    "outline_color": "#d407d8"
+  },
+  {
+    "id": "readline.Interface",
+    "name": "readline.Interface",
+    "parent": "hidden.Interface",
+    "color": "#d0b8bb",
+    "outline_color": "#7c464d"
+  },
+  {
+    "id": "readline/promises.Interface",
+    "name": "readline/promises.Interface",
+    "parent": "hidden.Interface",
+    "color": "#d8afd2",
+    "outline_color": "#8d3281"
+  },
+  {
+    "id": "stream.Transform",
+    "name": "stream.Transform",
+    "parent": "stream.Duplex",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "net.Socket",
+    "name": "net.Socket",
+    "parent": "stream.Duplex",
+    "color": "#f2c5f8",
+    "outline_color": "#c964d5"
+  },
+  {
+    "id": "repl.REPLServer",
+    "name": "repl.REPLServer",
+    "parent": "readline.Interface",
+    "color": "#c5bdae",
+    "outline_color": "#645230"
+  },
+  {
+    "id": "hidden.LazyTransform",
+    "name": "hidden.LazyTransform",
+    "parent": "stream.Transform",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "stream.PassThrough",
+    "name": "stream.PassThrough",
+    "parent": "stream.Transform",
+    "color": "#ccb9ee",
+    "outline_color": "#7347c0"
+  },
+  {
+    "id": "hidden.ZlibBase",
+    "name": "hidden.ZlibBase",
+    "parent": "stream.Transform",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "tls.TLSSocket",
+    "name": "tls.TLSSocket",
+    "parent": "net.Socket",
+    "color": "#cfb8ef",
+    "outline_color": "#7946c1"
+  },
+  {
+    "id": "tty.ReadStream",
+    "name": "tty.ReadStream",
+    "parent": "net.Socket",
+    "color": "#9fc6b5",
+    "outline_color": "#0e653e"
+  },
+  {
+    "id": "tty.WriteStream",
+    "name": "tty.WriteStream",
+    "parent": "net.Socket",
+    "color": "#9fc6b5",
+    "outline_color": "#0e653e"
+  },
+  {
+    "id": "crypto.Cipher",
+    "name": "crypto.Cipher",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Cipheriv",
+    "name": "crypto.Cipheriv",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Decipher",
+    "name": "crypto.Decipher",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Decipheriv",
+    "name": "crypto.Decipheriv",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Hash",
+    "name": "crypto.Hash",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "crypto.Hmac",
+    "name": "crypto.Hmac",
+    "parent": "hidden.LazyTransform",
+    "color": "#e6f9c5",
+    "outline_color": "#aed863"
+  },
+  {
+    "id": "hidden.Zlib",
+    "name": "hidden.Zlib",
+    "parent": "hidden.ZlibBase",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "zlib.Deflate",
+    "name": "zlib.Deflate",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.Inflate",
+    "name": "zlib.Inflate",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.Gzip",
+    "name": "zlib.Gzip",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.Gunzip",
+    "name": "zlib.Gunzip",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.DeflateRaw",
+    "name": "zlib.DeflateRaw",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.InflateRaw",
+    "name": "zlib.InflateRaw",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.Unzip",
+    "name": "zlib.Unzip",
+    "parent": "hidden.Zlib",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "hidden.Brotli",
+    "name": "hidden.Brotli",
+    "parent": "hidden.Zlib",
+    "color": "#ddd8c5",
+    "outline_color": "#998d63"
+  },
+  {
+    "id": "zlib.BrotliCompress",
+    "name": "zlib.BrotliCompress",
+    "parent": "hidden.Brotli",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  },
+  {
+    "id": "zlib.BrotliDecompress",
+    "name": "zlib.BrotliDecompress",
+    "parent": "hidden.Brotli",
+    "color": "#eaa2b0",
+    "outline_color": "#b71533"
+  }
+]

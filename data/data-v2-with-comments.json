@@ -84,294 +84,420 @@
     "name": "console.Console",
     "parent": "global.Object",
     "color": "#bcf5e2",
-    "outline_color": "#4ecea4"
+    "outline_color": "#4ecea4",
+    "attributes": {
+      "description": "The Console class can be used to create a simple logger with configurable output streams"
+    }
   },
   {
     "id": "crypto.Certificate",
     "name": "crypto.Certificate",
     "parent": "global.Object",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "The class to work with SPKAC (sertificate signing request format). Mostly was used to work with deprecated `<keygen>` HTML5 element"
+    }
   },
   {
     "id": "crypto.DiffieHellman",
     "name": "crypto.DiffieHellman",
     "parent": "global.Object",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Is a utility for creating Diffie-Hellman key exchanges. Is created using the `crypto.createDiffieHellman()` function"
+    }
   },
   {
     "id": "crypto.DiffieHellmanGroup",
     "name": "crypto.DiffieHellmanGroup",
     "parent": "global.Object",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "It works the same as crypto.DiffieHellman, except that it does not allow changing its keys after creation"
+    }
   },
   {
     "id": "hidden.BaseObject",
     "name": "hidden.BaseObject",
     "parent": "global.Object",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "A frequently recurring situation is that a JavaScript object and a C++ object need to be tied together. BaseObject is the main abstraction for that in Node.js, and most classes that are associated with JavaScript objects are subclasses of it"
+    }
   },
   {
     "id": "diagnostics_channel.Channel",
     "name": "diagnostics_channel.Channel",
     "parent": "global.Object",
     "color": "#c6b9ea",
-    "outline_color": "#6549b7"
+    "outline_color": "#6549b7",
+    "attributes": {
+      "description": "Instances are channels to report arbitrary message data for diagnostics purposes"
+    }
   },
   {
     "id": "dns.Resolver",
     "name": "dns.Resolver",
     "parent": "global.Object",
     "color": "#b9b3bf",
-    "outline_color": "#483b55"
+    "outline_color": "#483b55",
+    "attributes": {
+      "description": "Instances of dns.Resolver can call `resolver.setServers()` to set the server that should be used to resolve DNS lookups"
+    }
   },
   {
     "id": "fs.Dir",
     "name": "fs.Dir",
     "parent": "global.Object",
     "color": "#ebecca",
-    "outline_color": "#b8ba6e"
+    "outline_color": "#b8ba6e",
+    "attributes": {
+      "description": "A class representing a directory as async iterator"
+    }
   },
   {
     "id": "fs.Dirent",
     "name": "fs.Dirent",
     "parent": "global.Object",
     "color": "#ebecca",
-    "outline_color": "#b8ba6e"
+    "outline_color": "#b8ba6e",
+    "attributes": {
+      "description": "A class representing an entry inside directory (e.g. file or subdirectory)"
+    }
   },
   {
     "id": "hidden.StatsBase",
     "name": "hidden.StatsBase",
     "parent": "global.Object",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Basic functionality for fs.Stats is inherited from here"
+    }
   },
   {
     "id": "module.Module",
     "name": "module.Module",
     "parent": "global.Object",
     "color": "#c4dbb7",
-    "outline_color": "#619544"
+    "outline_color": "#619544",
+    "attributes": {
+      "description": "Class provides general utility methods when interacting with instances of Node.js modules"
+    }
   },
   {
     "id": "module.SourceMap",
     "name": "module.SourceMap",
     "parent": "global.Object",
     "color": "#c4dbb7",
-    "outline_color": "#619544"
+    "outline_color": "#619544",
+    "attributes": {
+      "description": "A source map entity in Node.js"
+    }
   },
   {
     "id": "perf_hooks.PerformanceEntry",
     "name": "perf_hooks.PerformanceEntry",
     "parent": "global.Object",
     "color": "#f0faab",
-    "outline_color": "#c4da28"
+    "outline_color": "#c4da28",
+    "attributes": {
+      "description": "Instances are basic elements of performance measurement"
+    }
   },
   {
     "id": "perf_hooks.PerformanceObserver",
     "name": "perf_hooks.PerformanceObserver",
     "parent": "global.Object",
     "color": "#f0faab",
-    "outline_color": "#c4da28"
+    "outline_color": "#c4da28",
+    "attributes": {
+      "description": "PerformanceObserver objects provide notifications when new PerformanceEntry instances have been added to the Performance Timeline"
+    }
   },
   {
     "id": "perf_hooks.PerformanceObserverEntryList",
     "name": "perf_hooks.PerformanceObserverEntryList",
     "parent": "global.Object",
     "color": "#f0faab",
-    "outline_color": "#c4da28"
+    "outline_color": "#c4da28",
+    "attributes": {
+      "description": "The PerformanceObserverEntryList class is used to provide access to the PerformanceEntry instances passed to a PerformanceObserver"
+    }
   },
   {
     "id": "readline/promises.Readline",
     "name": "readline/promises.Readline",
     "parent": "global.Object",
     "color": "#d8afd2",
-    "outline_color": "#8d3281"
+    "outline_color": "#8d3281",
+    "attributes": {
+      "description": "Instances could be a custom readline with a custom writable stream passed in arguments"
+    }
   },
   {
     "id": "string_decoder.StringDecoder",
     "name": "string_decoder.StringDecoder",
     "parent": "global.Object",
     "color": "#a2a0cc",
-    "outline_color": "#141073"
+    "outline_color": "#141073",
+    "attributes": {
+      "description": "Instances are used to decode Buffer objects into strings in a manner that preserves encoded multi-byte UTF-8 and UTF-16 characters"
+    }
   },
   {
     "id": "tls.SecureContext",
     "name": "tls.SecureContext",
     "parent": "global.Object",
     "color": "#cfb8ef",
-    "outline_color": "#7946c1"
+    "outline_color": "#7946c1",
+    "attributes": {
+      "description": "An instance object contains tls data (e.g. key, cert, ca)"
+    }
   },
   {
     "id": "url.Url",
     "name": "url.Url",
     "parent": "global.Object",
     "color": "#c4faa2",
-    "outline_color": "#60db14"
+    "outline_color": "#60db14",
+    "attributes": {
+      "description": "Browser-compatible URL class, implemented by following the WHATWG URL Standard. Used for URL resolution and parsing"
+    }
   },
   {
     "id": "url.URLSearchParams",
     "name": "url.URLSearchParams",
     "parent": "global.Object",
     "color": "#c4faa2",
-    "outline_color": "#60db14"
+    "outline_color": "#60db14",
+    "attributes": {
+      "description": "The URLSearchParams API provides read and write access to the query of a URL"
+    }
   },
   {
     "id": "util.TextDecoder",
     "name": "util.TextDecoder",
     "parent": "global.Object",
     "color": "#9af9af",
-    "outline_color": "#02d831"
+    "outline_color": "#02d831",
+    "attributes": {
+      "description": "An implementation of the WHATWG Encoding Standard TextDecoder API"
+    }
   },
   {
     "id": "util.TextEncoder",
     "name": "util.TextEncoder",
     "parent": "global.Object",
     "color": "#9af9af",
-    "outline_color": "#02d831"
+    "outline_color": "#02d831",
+    "attributes": {
+      "description": "An implementation of the WHATWG Encoding Standard TextEncoder API. All instances of TextEncoder only support UTF-8 encoding"
+    }
   },
   {
     "id": "hidden.ContextifyScript",
     "name": "hidden.ContextifyScript",
     "parent": "global.Object",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Binded С++ parent to make vm.Script work"
+    }
   },
   {
     "id": "stream/web.ReadableStream",
     "name": "stream/web.ReadableStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "Instances are Readable streams similar to the Node.js streams but in WHATWG Streams Standard"
+    }
   },
   {
     "id": "stream/web.ReadableStreamDefaultReader",
     "name": "stream/web.ReadableStreamDefaultReader",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "Creates a new stream/web.ReadableStream that is locked to the given ReadableStream"
+    }
   },
   {
     "id": "stream/web.ReadableStreamBYOBReader",
     "name": "stream/web.ReadableStreamBYOBReader",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The ReadableStreamBYOBReader is an alternative consumer for byte-oriented ReadableStream. The BYOB is short for `bring your own buffer`. This is a pattern that allows for more efficient reading of byte-oriented data that avoids extraneous copying"
+    }
   },
   {
     "id": "stream/web.ReadableStreamBYOBRequest",
     "name": "stream/web.ReadableStreamBYOBRequest",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "ReadableStreamBYOBRequest instance represents the current read request. The object is used to gain access to the ArrayBuffer/TypedArray that has been provided for the read request to fill, and provides methods for signaling that the data has been provided"
+    }
   },
   {
     "id": "stream/web.ReadableByteStreamController",
     "name": "stream/web.ReadableByteStreamController",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "Every ReadableStream has a controller that is responsible for the internal state and management of the stream's queue. The ReadableByteStreamController is for byte-oriented ReadableStreams"
+    }
   },
   {
     "id": "stream/web.ReadableStreamDefaultController",
     "name": "stream/web.ReadableStreamDefaultController",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "Every stream/web.ReadableStream has a controller that is responsible for the internal state and management of the stream's queue. The ReadableStreamDefaultController is the default controller implementation for ReadableStreams that are not byte-oriented"
+    }
   },
   {
     "id": "stream/web.TransformStream",
     "name": "stream/web.TransformStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "A TransformStream consists of a <ReadableStream> and a <WritableStream> that are connected such that the data written to the WritableStream is received, and potentially transformed, before being pushed into the ReadableStream's queue"
+    }
   },
   {
     "id": "stream/web.TransformStreamDefaultController",
     "name": "stream/web.TransformStreamDefaultController",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The TransformStreamDefaultController manages the internal state of the TransformStream"
+    }
   },
   {
     "id": "stream/web.WritableStream",
     "name": "stream/web.WritableStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The WritableStream is a WHATWG fromat destination to which stream data is sent"
+    }
   },
   {
     "id": "stream/web.WritableStreamDefaultWriter",
     "name": "stream/web.WritableStreamDefaultWriter",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "Creates a stream/web.WritableStream that is locked to the given WritableStream"
+    }
   },
   {
     "id": "stream/web.WritableStreamDefaultController",
     "name": "stream/web.WritableStreamDefaultController",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The WritableStreamDefaultController manage's the <WritableStream>'s internal state"
+    }
   },
   {
     "id": "stream/web.ByteLengthQueuingStrategy",
     "name": "stream/web.ByteLengthQueuingStrategy",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The ByteLengthQueuingStrategy interface of the Streams API provides a built-in byte length queuing strategy that can be used when constructing streams"
+    }
   },
   {
     "id": "stream/web.CountQueuingStrategy",
     "name": "stream/web.CountQueuingStrategy",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The CountQueuingStrategy interface of the Streams API provides a built-in chunk counting queuing strategy that can be used when constructing streams"
+    }
   },
   {
     "id": "stream/web.TextEncoderStream",
     "name": "stream/web.TextEncoderStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The TextEncoderStream takes a stream of data as input and emits a stream of UTF-8 bytes"
+    }
   },
   {
     "id": "stream/web.TextDecoderStream",
     "name": "stream/web.TextDecoderStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The TextDecoder interface represents a decoder for a specific text encoding. Decoder takes a stream of bytes as input and emits a stream of code points"
+    }
   },
   {
     "id": "stream/web.CompressionStream",
     "name": "stream/web.CompressionStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The CompressionStream interface of the Compression Streams API is an API for compressing a stream of data"
+    }
   },
   {
     "id": "stream/web.DecompressionStream",
     "name": "stream/web.DecompressionStream",
     "parent": "global.Object",
     "color": "#b5e3e3",
-    "outline_color": "#3ea6a6"
+    "outline_color": "#3ea6a6",
+    "attributes": {
+      "description": "The DecompressionStream interface is an API for decompressing a stream of data"
+    }
   },
   {
     "id": "global.EventTarget",
     "name": "global.EventTarget",
     "parent": "global.Object",
     "color": "#da9af6",
-    "outline_color": "#9303d2"
+    "outline_color": "#9303d2",
+    "attributes": {
+      "description": "The global.EventTarget object is a Node.js-specific implementation of the Web API EventTarget"
+    }
   },
   {
     "id": "worker_threads.MessageChannel",
     "name": "worker_threads.MessageChannel",
     "parent": "global.Object",
     "color": "#f6b9f2",
-    "outline_color": "#d147c8"
+    "outline_color": "#d147c8",
+    "attributes": {
+      "description": "Instances of the worker.MessageChannel class represent an asynchronous, two-way communications channel"
+    }
   },
   {
     "id": "assert.AssertionError",
@@ -398,28 +524,40 @@
     "name": "hidden.RangeError",
     "parent": "global.Error",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Error during argument validation, value is not in the range of acceptable values"
+    }
   },
   {
     "id": "hidden.ReferenceError",
     "name": "hidden.ReferenceError",
     "parent": "global.Error",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Trying to access variable that is not defined"
+    }
   },
   {
     "id": "hidden.SystemError",
     "name": "hidden.SystemError",
     "parent": "global.Error",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Application violates an OS constraint"
+    }
   },
   {
     "id": "hidden.TypeError",
     "name": "hidden.TypeError",
     "parent": "global.Error",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Provided argument is not an allowable type"
+    }
   },
   {
     "id": "global.Uint8Array",
@@ -436,35 +574,50 @@
     "name": "child_process.ChildProcess",
     "parent": "events.EventEmitter",
     "color": "#b7f2c9",
-    "outline_color": "#44c86b"
+    "outline_color": "#44c86b",
+    "attributes": {
+      "description": "Spawned child process (e.g. from child_process.fork())"
+    }
   },
   {
     "id": "cluster.Worker",
     "name": "cluster.Worker",
     "parent": "events.EventEmitter",
     "color": "#fda0fd",
-    "outline_color": "#e10fe2"
+    "outline_color": "#e10fe2",
+    "attributes": {
+      "description": "An object that contain info about a worker created by cluster.fork()"
+    }
   },
   {
     "id": "stream.Stream",
     "name": "stream.Stream",
     "parent": "events.EventEmitter",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Root class for all stream classes, it allows to work with any kind of streaming data"
+    }
   },
   {
     "id": "dgram.Socket",
     "name": "dgram.Socket",
     "parent": "events.EventEmitter",
     "color": "#e4e3e0",
-    "outline_color": "#a8a69f"
+    "outline_color": "#a8a69f",
+    "attributes": {
+      "description": "Instance of a UDP server, created by dgram.createSocket()"
+    }
   },
   {
     "id": "domain.Domain",
     "name": "domain.Domain",
     "parent": "events.EventEmitter",
     "color": "#e7eefa",
-    "outline_color": "#b0bfdb"
+    "outline_color": "#b0bfdb",
+    "attributes": {
+      "description": "Instance of domain created by domain.create(). It is used to handle multiple different IO operations as a single group. If any of the operations emit an 'error' event, or throw an error, then the domain object will be notified"
+    }
   },
   {
     "id": "events.EventEmitterAsyncResource",
@@ -481,105 +634,150 @@
     "name": "http.Agent",
     "parent": "events.EventEmitter",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "An Agent is responsible for managing connection persistence and reuse for HTTP clients. It maintains a queue of pending requests for a given host and port, reusing a single socket connection"
+    }
   },
   {
     "id": "net.Server",
     "name": "net.Server",
     "parent": "events.EventEmitter",
     "color": "#f2c5f8",
-    "outline_color": "#c964d5"
+    "outline_color": "#c964d5",
+    "attributes": {
+      "description": "This class is used to create a TCP or IPC server"
+    }
   },
   {
     "id": "inspector.Session",
     "name": "inspector.Session",
     "parent": "events.EventEmitter",
     "color": "#fcb0a4",
-    "outline_color": "#de3419"
+    "outline_color": "#de3419",
+    "attributes": {
+      "description": "The inspector.Session is used while communicating with V8. Usually for profiling and debugging of the code"
+    }
   },
   {
     "id": "hidden.InterfaceConstructor",
     "name": "hidden.InterfaceConstructor",
     "parent": "events.EventEmitter",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Parent class for the hidden.Interface. Nothing to say more about it."
+    }
   },
   {
     "id": "worker_threads.Worker",
     "name": "worker_threads.Worker",
     "parent": "events.EventEmitter",
     "color": "#f6b9f2",
-    "outline_color": "#d147c8"
+    "outline_color": "#d147c8",
+    "attributes": {
+      "description": "The Worker class represents an independent JavaScript execution thread. Most Node.js APIs are available inside of it"
+    }
   },
   {
     "id": "[Function (anonymous)]",
     "name": "[Function (anonymous)]",
     "parent": "hidden.BaseObject",
     "color": "#9bf7a4",
-    "outline_color": "#05d418"
+    "outline_color": "#05d418",
+    "attributes": {
+      "description": "For some reason crypto.KeyObject is inherited from anonymous function"
+    }
   },
   {
     "id": "hidden.JSTransferable",
     "name": "hidden.JSTransferable",
     "parent": "hidden.BaseObject",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "A base class from which JS classes that should be transferable or cloneable by postMesssage() can inherit (e.g. FileHandle)"
+    }
   },
   {
     "id": "v8.Serializer",
     "name": "v8.Serializer",
     "parent": "hidden.BaseObject",
     "color": "#9d99d0",
-    "outline_color": "#08017b"
+    "outline_color": "#08017b",
+    "attributes": {
+      "description": "Provides means of serializing JavaScript values in a way that is compatible with the `structured clone algorithm`"
+    }
   },
   {
     "id": "v8.Deserializer",
     "name": "v8.Deserializer",
     "parent": "hidden.BaseObject",
     "color": "#9d99d0",
-    "outline_color": "#08017b"
+    "outline_color": "#08017b",
+    "attributes": {
+      "description": "Provides means of deserializing JavaScript values in a way that is compatible with the `structured clone algorithm`"
+    }
   },
   {
     "id": "fs.Stats",
     "name": "fs.Stats",
     "parent": "hidden.StatsBase",
     "color": "#ebecca",
-    "outline_color": "#b8ba6e"
+    "outline_color": "#b8ba6e",
+    "attributes": {
+      "description": "Object containing information about a file"
+    }
   },
   {
     "id": "perf_hooks.PerformanceMark",
     "name": "perf_hooks.PerformanceMark",
     "parent": "perf_hooks.PerformanceEntry",
     "color": "#f0faab",
-    "outline_color": "#c4da28"
+    "outline_color": "#c4da28",
+    "attributes": {
+      "description": "A PerformanceMark is a subclass of PerformanceEntry whose performanceEntry.entryType is always 'mark'. Performance marks are used to mark specific significant moments in the Performance Timeline"
+    }
   },
   {
     "id": "perf_hooks.PerformanceMeasure",
     "name": "perf_hooks.PerformanceMeasure",
     "parent": "perf_hooks.PerformanceEntry",
     "color": "#f0faab",
-    "outline_color": "#c4da28"
+    "outline_color": "#c4da28",
+    "attributes": {
+      "description": "A PerformanceMeasure is a subclass of PerformanceEntry whose performanceEntry.entryType is always 'measure', and whose performanceEntry.duration measures the number of milliseconds elapsed between marks"
+    }
   },
   {
     "id": "vm.Script",
     "name": "vm.Script",
     "parent": "hidden.ContextifyScript",
     "color": "#bef2c7",
-    "outline_color": "#53c968"
+    "outline_color": "#53c968",
+    "attributes": {
+      "description": "Instances of the vm.Script class contain precompiled scripts that can be executed in a specific V8 Virtual Machine contexts"
+    }
   },
   {
     "id": "hidden.NodeEventTarget",
     "name": "hidden.NodeEventTarget",
     "parent": "global.EventTarget",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "The hidden.NodeEventTarget object implements an alternative to the EventEmitter. Having its own special characteristics"
+    }
   },
   {
     "id": "worker_threads.BroadcastChannel",
     "name": "worker_threads.BroadcastChannel",
     "parent": "global.EventTarget",
     "color": "#f6b9f2",
-    "outline_color": "#d147c8"
+    "outline_color": "#d147c8",
+    "attributes": {
+      "description": "Instances of BroadcastChannel allow asynchronous one-to-many communication with all other BroadcastChannel instances"
+    }
   },
   {
     "id": "repl.Recoverable",
@@ -616,363 +814,519 @@
     "name": "stream.Readable",
     "parent": "stream.Stream",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Stream from which data can be read"
+    }
   },
   {
     "id": "stream.Writable",
     "name": "stream.Writable",
     "parent": "stream.Stream",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Stream to which data can be written"
+    }
   },
   {
     "id": "http.OutgoingMessage",
     "name": "http.OutgoingMessage",
     "parent": "stream.Stream",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "It is an abstract parent class of outgoing message from the perspective of the participants of HTTP transaction"
+    }
   },
   {
     "id": "http2.Http2ServerResponse",
     "name": "http2.Http2ServerResponse",
     "parent": "stream.Stream",
     "color": "#dd9cf9",
-    "outline_color": "#9907d8"
+    "outline_color": "#9907d8",
+    "attributes": {
+      "description": "Analogue of http.ServerResponse but for http2. Object created internally by an HTTP server. Represents a response to the client"
+    }
   },
   {
     "id": "https.Agent",
     "name": "https.Agent",
     "parent": "http.Agent",
     "color": "#f79cf9",
-    "outline_color": "#d407d8"
+    "outline_color": "#d407d8",
+    "attributes": {
+      "description": "Https analogue of http.Agent. An Agent is responsible for managing connection persistence and reuse for HTTP clients. It maintains a queue of pending requests for a given host and port, reusing a single socket connection"
+    }
   },
   {
     "id": "http.Server",
     "name": "http.Server",
     "parent": "net.Server",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "A class representing an http server. Instance is returned when calling `http.createServer()`"
+    }
   },
   {
     "id": "tls.Server",
     "name": "tls.Server",
     "parent": "net.Server",
     "color": "#cfb8ef",
-    "outline_color": "#7946c1"
+    "outline_color": "#7946c1",
+    "attributes": {
+      "description": "Accepts encrypted connections using TLS or SSL"
+    }
   },
   {
     "id": "hidden.Interface",
     "name": "hidden.Interface",
     "parent": "hidden.InterfaceConstructor",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Parent class for the readline.Interface and readline/promises.Interface. Nothing to say more about it."
+    }
   },
   {
     "id": "crypto.KeyObject",
     "name": "crypto.KeyObject",
     "parent": "[Function (anonymous)]",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Is a class to represent a symmetric or asymmetric key, and each kind of key exposes different functions"
+    }
   },
   {
     "id": "net.BlockList",
     "name": "net.BlockList",
     "parent": "hidden.JSTransferable",
     "color": "#f2c5f8",
-    "outline_color": "#c964d5"
+    "outline_color": "#c964d5",
+    "attributes": {
+      "description": "The BlockList object can be used to check if ip address matches predefined list of specific IP addresses, IP ranges, or IP subnets"
+    }
   },
   {
     "id": "net.SocketAddress",
     "name": "net.SocketAddress",
     "parent": "hidden.JSTransferable",
     "color": "#f2c5f8",
-    "outline_color": "#c964d5"
+    "outline_color": "#c964d5",
+    "attributes": {
+      "description": "The class to describe ip address (e.g. ip, port, family). Than it can be used in net.BlockList operations"
+    }
   },
   {
     "id": "v8.DefaultSerializer",
     "name": "v8.DefaultSerializer",
     "parent": "v8.Serializer",
     "color": "#9d99d0",
-    "outline_color": "#08017b"
+    "outline_color": "#08017b",
+    "attributes": {
+      "description": "Serializes TypedArray (in particular Buffer) and DataView objects as host objects, and only stores the part of their underlying ArrayBuffers that they are referring to"
+    }
   },
   {
     "id": "v8.DefaultDeserializer",
     "name": "v8.DefaultDeserializer",
     "parent": "v8.Deserializer",
     "color": "#9d99d0",
-    "outline_color": "#08017b"
+    "outline_color": "#08017b",
+    "attributes": {
+      "description": "Deserializer for the v8.DefaultSerializer"
+    }
   },
   {
     "id": "worker_threads.MessagePort",
     "name": "worker_threads.MessagePort",
     "parent": "hidden.NodeEventTarget",
     "color": "#f6b9f2",
-    "outline_color": "#d147c8"
+    "outline_color": "#d147c8",
+    "attributes": {
+      "description": "Instances of the worker.MessagePort class represent one end of an asynchronous, two-way communications channel (port from worker_threads.MessageChannel, or parentPort)"
+    }
   },
   {
     "id": "stream.Duplex",
     "name": "stream.Duplex",
     "parent": "stream.Readable",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Stream that implements both the Readable and Writable interfaces"
+    }
   },
   {
     "id": "fs.ReadStream",
     "name": "fs.ReadStream",
     "parent": "stream.Readable",
     "color": "#ebecca",
-    "outline_color": "#b8ba6e"
+    "outline_color": "#b8ba6e",
+    "attributes": {
+      "description": "Stream of file data (e.g. returned by fs.createReadStream())"
+    }
   },
   {
     "id": "http.IncomingMessage",
     "name": "http.IncomingMessage",
     "parent": "stream.Readable",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "An original HTTP request object"
+    }
   },
   {
     "id": "http2.Http2ServerRequest",
     "name": "http2.Http2ServerRequest",
     "parent": "stream.Readable",
     "color": "#dd9cf9",
-    "outline_color": "#9907d8"
+    "outline_color": "#9907d8",
+    "attributes": {
+      "description": "Analogue of http.IncomingMessage but for http2. An original HTTP request object"
+    }
   },
   {
     "id": "crypto.Sign",
     "name": "crypto.Sign",
     "parent": "stream.Writable",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "The class is a utility for generating signatures that then can be verified using crypto.Verify"
+    }
   },
   {
     "id": "crypto.Verify",
     "name": "crypto.Verify",
     "parent": "stream.Writable",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "The class is a utility for verifying signatures"
+    }
   },
   {
     "id": "fs.WriteStream",
     "name": "fs.WriteStream",
     "parent": "stream.Writable",
     "color": "#ebecca",
-    "outline_color": "#b8ba6e"
+    "outline_color": "#b8ba6e",
+    "attributes": {
+      "description": "Stream pointed to a file (e.g. returned by fs.createWriteStream())"
+    }
   },
   {
     "id": "http.ClientRequest",
     "name": "http.ClientRequest",
     "parent": "http.OutgoingMessage",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "A class representing an in-progress request from the node process to the 3rd party API"
+    }
   },
   {
     "id": "http.ServerResponse",
     "name": "http.ServerResponse",
     "parent": "http.OutgoingMessage",
     "color": "#cf9cad",
-    "outline_color": "#7a072c"
+    "outline_color": "#7a072c",
+    "attributes": {
+      "description": "Object created internally by an HTTP server. Represents a response to the client"
+    }
   },
   {
     "id": "https.Server",
     "name": "https.Server",
     "parent": "tls.Server",
     "color": "#f79cf9",
-    "outline_color": "#d407d8"
+    "outline_color": "#d407d8",
+    "attributes": {
+      "description": "Https analogue of http.Server. A class representing an http server. Instance is returned when calling `http.createServer()`"
+    }
   },
   {
     "id": "readline.Interface",
     "name": "readline.Interface",
     "parent": "hidden.Interface",
     "color": "#d0b8bb",
-    "outline_color": "#7c464d"
+    "outline_color": "#7c464d",
+    "attributes": {
+      "description": "Instances of the readline.Interface class are constructed using the readline.createInterface(). Every instance is associated with a single input Readable stream and a single output Writable stream"
+    }
   },
   {
     "id": "readline/promises.Interface",
     "name": "readline/promises.Interface",
     "parent": "hidden.Interface",
     "color": "#d8afd2",
-    "outline_color": "#8d3281"
+    "outline_color": "#8d3281",
+    "attributes": {
+      "description": "Promisifed analogue of readline.Interface. Instances of the readline.Interface class are constructed using the readline.createInterface(). Every instance is associated with a single input Readable stream and a single output Writable stream"
+    }
   },
   {
     "id": "stream.Transform",
     "name": "stream.Transform",
     "parent": "stream.Duplex",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Transform streams are Duplex streams where the output is the transformed input"
+    }
   },
   {
     "id": "net.Socket",
     "name": "net.Socket",
     "parent": "stream.Duplex",
     "color": "#f2c5f8",
-    "outline_color": "#c964d5"
+    "outline_color": "#c964d5",
+    "attributes": {
+      "description": "This class is an abstraction of a TCP socket or a streaming IPC endpoint. An instance can be created by the user and used directly to interact with a server"
+    }
   },
   {
     "id": "repl.REPLServer",
     "name": "repl.REPLServer",
     "parent": "readline.Interface",
     "color": "#c5bdae",
-    "outline_color": "#645230"
+    "outline_color": "#645230",
+    "attributes": {
+      "description": "Provides a Read-Eval-Print-Loop (REPL) implementation. Instances of repl.REPLServer will accept individual lines of user input, evaluate those according to a user-defined evaluation function, then output the result"
+    }
   },
   {
     "id": "hidden.LazyTransform",
     "name": "hidden.LazyTransform",
     "parent": "stream.Transform",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "LazyTransform is a special type of Transform stream that is lazily loaded"
+    }
   },
   {
     "id": "stream.PassThrough",
     "name": "stream.PassThrough",
     "parent": "stream.Transform",
     "color": "#ccb9ee",
-    "outline_color": "#7347c0"
+    "outline_color": "#7347c0",
+    "attributes": {
+      "description": "Is an example of the Transform stream that passes input bytes to the output"
+    }
   },
   {
     "id": "hidden.ZlibBase",
     "name": "hidden.ZlibBase",
     "parent": "stream.Transform",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "The base class for all Zlib-style streams"
+    }
   },
   {
     "id": "tls.TLSSocket",
     "name": "tls.TLSSocket",
     "parent": "net.Socket",
     "color": "#cfb8ef",
-    "outline_color": "#7946c1"
+    "outline_color": "#7946c1",
+    "attributes": {
+      "description": "Performs transparent encryption of written data and all required TLS negotiation"
+    }
   },
   {
     "id": "tty.ReadStream",
     "name": "tty.ReadStream",
     "parent": "net.Socket",
     "color": "#9fc6b5",
-    "outline_color": "#0e653e"
+    "outline_color": "#0e653e",
+    "attributes": {
+      "description": "Represents the readable side of a TTY. In normal circumstances process.stdin will be the only tty.ReadStream instance in a Node.js process"
+    }
   },
   {
     "id": "tty.WriteStream",
     "name": "tty.WriteStream",
     "parent": "net.Socket",
     "color": "#9fc6b5",
-    "outline_color": "#0e653e"
+    "outline_color": "#0e653e",
+    "attributes": {
+      "description": "Represents the writable side of a TTY. In normal circumstances, process.stdout and process.stderr will be the only tty.WriteStream instances created for a Node.js process"
+    }
   },
   {
     "id": "crypto.Cipher",
     "name": "crypto.Cipher",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Deprecated version of Cipher method, use crypto.Cipheriv instead"
+    }
   },
   {
     "id": "crypto.Cipheriv",
     "name": "crypto.Cipheriv",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Instances of the Cipher class are used to encrypt data. Can be used as a stream or using `.update()` and `.final()` methods"
+    }
   },
   {
     "id": "crypto.Decipher",
     "name": "crypto.Decipher",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Deprecated version of Decipher method, use crypto.Decipheriv instead"
+    }
   },
   {
     "id": "crypto.Decipheriv",
     "name": "crypto.Decipheriv",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "Vice versa of crypto.Cipher class. Instances of the Decipher class are used to decrypt data"
+    }
   },
   {
     "id": "crypto.Hash",
     "name": "crypto.Hash",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "The class is a utility to hash the input data. Can be used as a stream or using `.update()` and `.final()` methods"
+    }
   },
   {
     "id": "crypto.Hmac",
     "name": "crypto.Hmac",
     "parent": "hidden.LazyTransform",
     "color": "#e6f9c5",
-    "outline_color": "#aed863"
+    "outline_color": "#aed863",
+    "attributes": {
+      "description": "The same as crypto.Hash but also a secret key should be provided to generate a hash. E.g. is used to make sure data is provided by the key owner"
+    }
   },
   {
     "id": "hidden.Zlib",
     "name": "hidden.Zlib",
     "parent": "hidden.ZlibBase",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "it is the base class of the compressor/decompressor classes. This class inherits from stream.Transform, allowing zlib objects to be used in pipes and similar stream operations."
+    }
   },
   {
     "id": "zlib.Deflate",
     "name": "zlib.Deflate",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Compress data using deflate"
+    }
   },
   {
     "id": "zlib.Inflate",
     "name": "zlib.Inflate",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Decompress a deflate stream"
+    }
   },
   {
     "id": "zlib.Gzip",
     "name": "zlib.Gzip",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Compress data using gzip"
+    }
   },
   {
     "id": "zlib.Gunzip",
     "name": "zlib.Gunzip",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Decompress a gzip stream"
+    }
   },
   {
     "id": "zlib.DeflateRaw",
     "name": "zlib.DeflateRaw",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Compress data using deflate, and do not append a zlib header"
+    }
   },
   {
     "id": "zlib.InflateRaw",
     "name": "zlib.InflateRaw",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Decompress a raw deflate stream"
+    }
   },
   {
     "id": "zlib.Unzip",
     "name": "zlib.Unzip",
     "parent": "hidden.Zlib",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Decompress either a Gzip- or Deflate-compressed stream by auto-detecting the header"
+    }
   },
   {
     "id": "hidden.Brotli",
     "name": "hidden.Brotli",
     "parent": "hidden.Zlib",
     "color": "#ddd8c5",
-    "outline_color": "#998d63"
+    "outline_color": "#998d63",
+    "attributes": {
+      "description": "Base class form Brotli compress and decompress"
+    }
   },
   {
     "id": "zlib.BrotliCompress",
     "name": "zlib.BrotliCompress",
     "parent": "hidden.Brotli",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Compress data using the Brotli algorithm"
+    }
   },
   {
     "id": "zlib.BrotliDecompress",
     "name": "zlib.BrotliDecompress",
     "parent": "hidden.Brotli",
     "color": "#eaa2b0",
-    "outline_color": "#b71533"
+    "outline_color": "#b71533",
+    "attributes": {
+      "description": "Decompress data using the Brotli algorithm"
+    }
   }
 ]
