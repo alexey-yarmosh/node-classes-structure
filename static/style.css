@@ -1,15 +1,21 @@
-html, body {
-  /* height: 100%; */
+@font-face {
+  font-family: "DrukWide";
+  src: url('./DrukWide-Heavy-Cy-Web.woff2');
+}
+
+h1 {
+  font-family: 'DrukWide';
+}
+
+.main-section {
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .markdown-body {
   box-sizing: border-box;
-  min-width: 200px;
-  max-width: 1710px;
-  margin: 0 auto;
-  padding: 45px;
+  padding: 45px 45px 0 45px;
 }
-
 @media (max-width: 767px) {
   .markdown-body {
     padding: 15px;
@@ -17,7 +23,15 @@ html, body {
 }
 
 .chart {
-  width: 1710px;
-  height: 4600px;
+  width: 100%;
+  width: 1400px;
+  height: 4200px;
   margin: 0 auto;
+}
+
+.tooltip-box {
+  font-size: 10px;
+  background-color: #666666;
+  color: white;
+  padding: 6px;
 }
