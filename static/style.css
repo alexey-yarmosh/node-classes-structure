@@ -1,0 +1,23 @@
+html, body {
+  /* height: 100%; */
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 1710px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+.chart {
+  width: 1710px;
+  height: 4600px;
+  margin: 0 auto;
+}

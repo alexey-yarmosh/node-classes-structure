@@ -5,16 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    html, body {
-      height: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="./static/github-markdown-light.css">
+  <link rel="stylesheet" href="./static/style.css">
 </head>
 <body>
-  <div id="chartDiv" style="width: 1700px; height: 4600px;"></div>
+  <section>
+    <div class="markdown-body">
+      <h1>Node.js built-in classes inheritance structure</h1>
+      <p>Here is the scheme of inheritance of the built-in Node.js classes. All of them can be found on the pages of <a href="https://nodejs.org/api/">https://nodejs.org/api/</a></p>
+      <div>
+        <h3>Legend:</h3>
+        <ul>
+          <li>elements are named in format <code>[moduleName].[className]</code> (e.g. <code>const { Readable } = require('stream')</code> becomes <code>stream.Readable</code>)</li>
+          <li>elements are colored based on the [moduleName]</li>
+          <li>elements that are accessible globally have [moduleName] = <code>global</code></li>
+          <li>elements that users can't import manually have [moduleName] = <code>hidden</code></li>
+        </ul>
+      </div>
+    </div>
+    <div id="chartDiv" class="chart"></div>
+  </section>
 </body>
-<script src="./node_modules/jscharting/dist/jscharting.js"></script>
-<script src="./node_modules/jscharting/dist/modules/types.js"></script>
-<script src="./static/chart.js"></script>
+<script defer src="./static/jscharting/dist/jscharting.js"></script>
+<script defer src="./static/jscharting/dist/modules/types.js"></script>
+<script defer src="./static/chart.js"></script>
 </html>

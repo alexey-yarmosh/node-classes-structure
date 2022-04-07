@@ -1,12 +1,11 @@
 fetch("../data/data-v2-with-comments.json")
 .then(response => {
-   return response.json();
+  return response.json();
 })
 .then(jsondata => drawChart(jsondata));
 
 function drawChart(data) {
   JSC.chart('chartDiv', {
-    debug: true,
     type: 'organization right',
     legend_visible: false,
     series: [
